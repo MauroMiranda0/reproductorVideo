@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Música</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+</head>
+
+<header>
+    <div class="header">
+        <h1 class="titulo">SKA-JAZZ Music<br><span>By Mauricio Vergara Miranda</span></h1>
+    </div>
+    <h2>El Ska-Jazz es un género musical caracterizado por unir la melodía del jazz con el ritmo del ska la guitarra
+        eléctrica o acústica, contrabajo o bajo.</h2>
+</header>
+
+<body>
+    <!-- <div id="popup" class="popup">
+        <div class="popup-content">
+            <span class="close-btn" id="close-btn">&times;</span>
+            <img src="/contents/descripcion.JPG" alt="Descripcion" class="popup-img">
+        </div>
+    </div> -->
+    <section class="main-content">
+        <div class="video-player">
+            <div class="video-details">
+                <h3>Ska-Jazz: Una Fusión Vibrante de Ritmos y Melodías</h3>
+                <p>El ska-jazz es un subgénero musical que combina la energía del ska jamaicano con la sofisticación del
+                    jazz. Surgido en la década de 1960, este estilo se caracteriza por su instrumentación variada,
+                    ritmos sincopados, y una fuerte inclinación hacia la improvisación. A lo largo de los años, ha
+                    incorporado influencias de géneros como el reggae y el dub, creando un sonido dinámico y en
+                    constante evolución. Con una presencia global en festivales y una comunidad internacional de
+                    seguidores, el ska jazz sigue siendo relevante y emocionante, ofreciendo una mezcla única de ritmos
+                    contagiosos y melodías complejas.</p>
+            </div>
+
+            <div class="video-container">
+                <div class="video-content">
+                    <video id="video">
+                        <source src="/contents/video/Cuando te miro - Ska Jazz Messengers.mp4" type="video/mp4">
+                        <track class="subtitles" label="Español" kind="subtitles" srclang="es"
+                            src="/contents/video/Cuando te miro - Ska Jazz Messengers.vtt" default>
+                    </video>
+                </div>
+                <div class="controls">
+                    <div class="controls-progress">
+                        <input type="range" id="seek" class="seek" min="0" value="0">
+                    </div>
+                    <div class="controls-content">
+
+                        <button class="btn-controls" id="mute" onclick="muteNoMute()" title="Silenciar"><ion-icon
+                                name="volume-mute-outline"></ion-icon></button>
+                        <button class="btn-controls ocultar" id="noMute" class="" onclick="muteNoMute()"
+                            title=" Desilenciar"><ion-icon name="volume-high-outline"></ion-icon></button>
+
+                        <input id="volumen" class="volumen" type="range" min="0" max="1" step="0.1" value="0.5"
+                            title="Volumen">
+
+                        <button class="btn-controls" onclick="playPrevious()" title="Anterior">
+                            <ion-icon name="play-skip-back-outline"></ion-icon>
+                        </button>
+
+                        <button class="btn-controls" onclick="skip(-10)" title="Retroceder"><ion-icon
+                                name="play-back-outline"></ion-icon></button>
+
+                        <button class="btn-controls" id="play" onclick="playPause()" title="Play"><ion-icon
+                                name="play-outline"></ion-icon></button>
+                        <button class="btn-controls ocultar" id="pause" class="" onclick="playPause()"
+                            title="Pausa"><ion-icon name="pause-outline"></ion-icon></button>
+
+                        <button class="btn-controls" onclick="skip(10)" title="Avanzar"><ion-icon
+                                name="play-forward-outline"></ion-icon></button>
+
+                        <button class="btn-controls" onclick="playNext()" title="Siguiente">
+                            <ion-icon name="play-skip-forward-outline"></ion-icon>
+                        </button>
+
+                        <button class="btn-controls" onclick="stop()" title="Detener"><ion-icon
+                                name="stop-outline"></ion-icon></button>
+
+                        <button class="btn-controls" id="slow-down" title="Despacio"><i
+                                class="ri-slow-down-line"></i></button>
+                        <button class="btn-controls" id="reset-speed" title="Normal">
+                            <ion-icon name="speedometer-outline"></ion-icon></button>
+                        <button class="btn-controls" id="speed-up" title="Rápido"><i
+                                class="ri-speed-up-line"></i></button>
+
+                        <button class="btn-controls" id="subtitles" onclick="toggleSubtitles()" title="Subtítulos">
+                            <i class="ri-closed-captioning-line"></i>
+                        </button>
+                        <button class="btn-controls ocultar" id="noSubtitles" onclick="toggleSubtitles()"
+                            title="Sin subtítulos">
+                            <i class="ri-closed-captioning-fill"></i>
+                        </button>
+
+                        <button class="btn-controls" id="maximizar" onclick="fullscreen()" title="Maximizar"><ion-icon
+                                name="expand-outline"></ion-icon></button>
+
+                        <button id="screenshotButton" class="btn-controls" title="Screenshot">
+                            <ion-icon name="camera-outline"></ion-icon>
+                        </button>
+                        <canvas id="canvas" style="display:none;"></canvas>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="video-list">
+            <div class="video-item">
+                <img src="/contents/img/Cuando te miro.jpg" alt="Cuando te miro">
+                <p>Cuando te miro - Ska Jazz Messengers</p>
+            </div>
+            <div class="video-item">
+                <img src="/contents/img/Love.jpg" alt="L.O.V.E">
+                <p>Out Of Control Army & Lollypop Lorry - Love</p>
+            </div>
+            <div class="video-item">
+                <img src="/contents/img/Out Of Control Army.jpg" alt="Out Of Control Army">
+                <p>Out Of Control Army - Lilith</p>
+            </div>
+            <div class="video-item">
+                <img src="/contents/img/Quito Ska Jazz.jpg" alt="Quito Ska Jazz">
+                <p>Quito Ska Jazz - Shadows</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="resume">
+            <h2>SKA-JAZZ Music</h2>
+            <h3>El ska-jazz se comienza a gestar en la tercera ola del ska como una búsqueda del sonido característico
+                del
+                ska de los años sesenta; cuando este género, aún tenía elementos propios del jazz, ya que en sus
+                inicios, el
+                ska fue la asimilación británica del jazz y del blues en la que los músicos de jazz británicos
+                interpretaban
+                ritmos tradicionales como el calipso con instrumentos típicos de jazz (piano, batería, guitarra,
+                contrabajo,
+                etc) además de agregar nuevas armonías y otros recursos que fueron enriqueciendo la música británica
+                poco a
+                poco. Aunque grupos como los Skatalites desarrollaron este estilo, con el tiempo se perdió parte de esta
+                influencia, pero actualmente se ha convertido en una tendencia muy fuerte en la que se busca rescatar el
+                sonido del ska clásico. </h3>
+        </div>
+
+        <div class="slider">
+            <div class="slide-track">
+                <div class="slide">
+                    <img src="/contents/img/1.png" alt="">
+                </div>
+                <div class="slide">
+                    <img src="/contents/img/2.png" alt="">
+                </div>
+                <div class="slide">
+                    <img src="/contents/img/3.png" alt="">
+                </div>
+                <div class="slide">
+                    <img src="/contents/img/4.png" alt="">
+                </div>
+                <div class="slide">
+                    <img src="/contents/img/5.png" alt="">
+                </div>
+                <div class="slide">
+                    <img src="/contents/img/6.png" alt="">
+                </div>
+                <div class="slide">
+                    <img src="/contents/img/1.png" alt="">
+                </div>
+                <div class="slide">
+                    <img src="/contents/img/2.png" alt="">
+                </div>
+                <div class="slide">
+                    <img src="/contents/img/3.png" alt="">
+                </div>
+                <div class="slide">
+                    <img src="/contents/img/4.png" alt="">
+                </div>
+                <div class="slide">
+                    <img src="/contents/img/5.png" alt="">
+                </div>
+                <div class="slide">
+                    <img src="/contents/img/6.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <!-- Footer content -->
+        <div class="footer_content">
+            <div class="container">
+                <div class="col contact">
+                    <p>
+                        <a href="/" class="logo">Ska-Jazz Music</a>
+                    </p>
+                    <p><ion-icon class="icon" name="location"></ion-icon>
+                        1378 Pachuca de Soto, México</p>
+                    <p><ion-icon class="icon" name="mail"></ion-icon>
+                        <a href="mailto:example@google.com">skajazzmusic@hacemoslaweb.com</a>
+                    </p>
+                    <p><ion-icon class="icon" name="call"></ion-icon>
+                        740-699-5053</p>
+                    <!-- Social links-->
+                    <div class="social_media_links">
+                        <a href="http://facebook.com" target="_blank">
+                            <ion-icon class="icon" name="logo-facebook"></ion-icon>
+                        </a>
+                        <a href="http://instagram.com" target="_blank">
+                            <ion-icon class="icon" name="logo-instagram"></ion-icon>
+                        </a>
+                        <a href="http://twitter.com" target="_blank">
+                            <ion-icon class="icon" name="logo-twitter"></ion-icon>
+                        </a>
+                    </div>
+                </div>
+                <!-- Info -->
+                <div class="col info">
+                    <h2>Info</h2>
+                    <p>
+                        <a href="/about">Acerca de</a>
+                    </p>
+                    <p>
+                        <a href="/contact">Contacto</a>
+                    </p>
+                    <p>
+                        <a href="/terms-and-conditions">Terminos y Condiciones</a>
+                    </p>
+                    <p>
+                        <a href="/privacy-policy">Politica de Privacidad</a>
+                    </p>
+                </div>
+                <!-- Newsletter -->
+                <div class="col newsletter">
+                    <h2>Boletín informativo</h2>
+                    <form action="" class="newsletter-form">
+                        <input type="text" placeholder="Your Email">
+                        <button>Subscribir</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- Footer Copyright -->
+        <div class="footer_copyright">Copyryght @hacemoslaweb 2024.</div>
+    </footer>
+
+    <!-- Import icons -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
