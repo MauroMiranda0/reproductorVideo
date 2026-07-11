@@ -1,0 +1,6 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "username": "Mauricio Vergara Miranda",
+  "instructions": ["AGENTS.md", "CONSTITUTION.md"],
+  "logLevel": "INFO"
+}
