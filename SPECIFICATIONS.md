@@ -228,5 +228,29 @@ Este documento es la **fuente única de requisitos**. Cualquier implementación 
 2. Respetar la visión y objetivos del producto
 3. Priorizar la experiencia de usuario sobre la complejidad técnica
 
+---
+
+## 8. ALCANCE MVP (Actualizado)
+
+### Fase 1 - MVP Actual
+| Módulo | Estado |
+|--------|--------|
+| Reproductor Audiovisual | ✅ INCLUIDO |
+| Hotspots Interactivos | ❌ Fase 2 |
+| Coleccionables | ❌ Fase 3 |
+| Gamificación | ❌ Fase 4 |
+| Panel de Usuario | ❌ Fase 5 |
+| Recomendaciones | ❌ Fase 6 |
+
+### Parámetros del MVP
+- **Videos:** 20 (contenido de terceros)
+- **Autenticación:** Anónima (sin registro)
+- **Tipo:** Demo funcional
+
+### Contenido de Prueba
+- Usar videos de prueba para desarrollo
+- URLs de videos libres de derechos
+- Formato: MP4 (máxima compatibilidad)
+
 **Archivo fuente:** CONSTITUTION.md  
 **Última actualización:** $(Get-Date -Format "yyyy-MM-dd")

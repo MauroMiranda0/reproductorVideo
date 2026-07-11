@@ -46,4 +46,6 @@ Chain:    Ethereum/Polygon
 - `CONSTITUTION.md` - Documento fuente de principios
 - `PRINCIPLES.md` - Directrices detalladas
 - `SPECIFICATIONS.md` - Requisitos y historias de usuario
+- `CLARIFICATIONS.md` - Preguntas y aclaraciones pendientes
+- `TECHNICAL_PLAN.md` - Plan técnico de implementación
 - `AGENTS.md` - Configuración del agente
