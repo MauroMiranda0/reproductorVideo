@@ -22,11 +22,12 @@
 ---
 
 ## 3. Lineamientos Técnicos
-- **Frontend:** React + Framer Motion + Web3.js/Ethers.js.  
-- **Backend:** NodeJS + Express + Prisma.  
-- **Base de Datos:** Supabase (PostgreSQL + pgvector).  
-- **Blockchain:** Ethereum/Polygon para minting de NFTs y tokens ERC‑20.  
-- **Integración previa:** Reutilizar el sitio de etiquetas HTML como base conceptual y narrativa.  
+- **Frontend actual:** HTML5 + CSS3 + JavaScript vanilla (MVP).
+- **Frontend objetivo:** React + Framer Motion + Web3.js/Ethers.js.
+- **Backend:** NodeJS + Express + Prisma.
+- **Base de Datos:** Supabase (PostgreSQL + pgvector).
+- **Blockchain:** Ethereum/Polygon para minting de NFTs y tokens ERC‑20.
+- **Integración previa:** Reutilizar el sitio de etiquetas HTML como base conceptual y narrativa.
 
 ---
 

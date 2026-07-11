@@ -23,13 +23,13 @@
 reproductorVideo/
 ├── index.html              # Página principal
 ├── styles.css              # Estilos globales
-├── scripts.js              # Lógica del reproductor
+├── scripts.js              # Punto de entrada (inicialización)
 ├── contents/
 │   ├── img/               # Imágenes del proyecto
 │   │   └── skaJazz.JPG    # Referencia visual
 │   └── video/             # Videos de prueba (20)
-│       ├── video1.mp4
-│       ├── video2.mp4
+│       ├── pexels-01.mp4
+│       ├── pexels-02.mp4
 │       └── ...
 ├── components/             # Componentes modulares
 │   ├── player.js          # Clase reproductor

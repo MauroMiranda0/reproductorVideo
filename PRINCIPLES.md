@@ -20,7 +20,17 @@
 
 ---
 
-## 3. Stack Tecnológico (No Negociable)
+## 3. Stack Tecnológico
+
+### MVP Actual
+| Capa | Tecnología |
+|------|------------|
+| Frontend | HTML5 + CSS3 + JavaScript vanilla |
+| Backend | - |
+| BD | - |
+| Blockchain | - |
+
+### Stack Objetivo (Post-MVP)
 | Capa | Tecnología |
 |------|------------|
 | Frontend | React + Framer Motion + Web3.js/Ethers.js |

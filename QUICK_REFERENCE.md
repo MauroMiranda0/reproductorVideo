@@ -49,4 +49,5 @@ Chain:    Ethereum/Polygon
 - `CLARIFICATIONS.md` - Preguntas y aclaraciones pendientes
 - `TECHNICAL_PLAN.md` - Plan técnico de implementación
 - `TASKS.md` - Lista de tareas procesables
+- `ANALYSIS_REPORT.md` - Reporte de coherencia
 - `AGENTS.md` - Configuración del agente

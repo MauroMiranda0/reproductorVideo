@@ -13,52 +13,52 @@
 ### 📹 Módulo: Reproductor Audiovisual
 | # | Pregunta | Estado | Respuesta |
 |---|----------|--------|-----------|
-| 1.1 | ¿Cuántos videos soportará inicialmente? | ⏳ | Pendiente |
-| 1.2 | ¿Qué formatos de video son prioritarios? | ⏳ | Pendiente |
-| 1.3 | ¿El video será auto-reproducible? | ⏳ | Pendiente |
-| 1.4 | ¿Se necesita soporte para subtítulos? | ⏳ | Pendiente |
+| 1.1 | ¿Cuántos videos soportará inicialmente? | ✅ | 20 videos |
+| 1.2 | ¿Qué formatos de video son prioritarios? | ✅ | MP4 (H.264) |
+| 1.3 | ¿El video será auto-reproducible? | ✅ | No, manual |
+| 1.4 | ¿Se necesita soporte para subtítulos? | ⏳ | No (fase 2+) |
 
-### 🎯 Módulo: Hotspots Interactivos
+### 🎯 Módulo: Hotspots Interactivos (Fase 2)
 | # | Pregunta | Estado | Respuesta |
 |---|----------|--------|-----------|
-| 2.1 | ¿Cuántos hotspots máximo por video? | ⏳ | Pendiente |
-| 2.2 | ¿Los hotspots se crean desde panel admin o son hardcodeados? | ⏳ | Pendiente |
-| 2.3 | ¿Qué tipos de trivia se necesitan? (opción múltiple, verdadero/falso, etc.) | ⏳ | Pendiente |
-| 2.4 | ¿Los minijuegos tienen tiempo límite? | ⏳ | Pendiente |
-| 2.5 | ¿Se permite saltar un hotspot sin completarlo? | ⏳ | Pendiente |
+| 2.1 | ¿Cuántos hotspots máximo por video? | ⏳ | Pendiente fase 2 |
+| 2.2 | ¿Los hotspots se crean desde panel admin o son hardcodeados? | ⏳ | Pendiente fase 2 |
+| 2.3 | ¿Qué tipos de trivia se necesitan? | ⏳ | Pendiente fase 2 |
+| 2.4 | ¿Los minijuegos tienen tiempo límite? | ⏳ | Pendiente fase 2 |
+| 2.5 | ¿Se permite saltar un hotspot sin completarlo? | ⏳ | Pendiente fase 2 |
 
-### 💎 Módulo: Coleccionables
+### 💎 Módulo: Coleccionables (Fase 3)
 | # | Pregunta | Estado | Respuesta |
 |---|----------|--------|-----------|
-| 3.1 | ¿Cuántos coleccionables会有 por video? | ⏳ | Pendiente |
-| 3.2 | ¿Cómo se determina la rareza de un coleccionable? | ⏳ | Pendiente |
-| 3.3 | ¿Se pueden intercambiar coleccionables entre usuarios? | ⏳ | Pendiente |
-| 3.4 | ¿Hay límite de coleccionables por usuario? | ⏳ | Pendiente |
-| 3.5 | ¿Los coleccionables tienen valor económico real? | ⏳ | Pendiente |
+| 3.1 | ¿Cuántos coleccionables会有 por video? | ⏳ | Pendiente fase 3 |
+| 3.2 | ¿Cómo se determina la rareza de un coleccionable? | ⏳ | Pendiente fase 3 |
+| 3.3 | ¿Se pueden intercambiar coleccionables entre usuarios? | ⏳ | Pendiente fase 3 |
+| 3.4 | ¿Hay límite de coleccionables por usuario? | ⏳ | Pendiente fase 3 |
+| 3.5 | ¿Los coleccionables tienen valor económico real? | ⏳ | Pendiente fase 3 |
 
-### 🎮 Módulo: Gamificación
+### 🎮 Módulo: Gamificación (Fase 4)
 | # | Pregunta | Estado | Respuesta |
 |---|----------|--------|-----------|
-| 4.1 | ¿Qué acciones generan tokens? | ⏳ | Pendiente |
-| 4.2 | ¿Los tokens tienen uso dentro de la plataforma? | ⏳ | Pendiente |
-| 4.3 | ¿El ranking es global o por categorías? | ⏳ | Pendiente |
-| 4.4 | ¿Cuántos niveles de progreso habrá? | ⏳ | Pendiente |
-| 4.5 | ¿Los logros son desbloqueables o aleatorios? | ⏳ | Pendiente |
+| 4.1 | ¿Qué acciones generan tokens? | ⏳ | Pendiente fase 4 |
+| 4.2 | ¿Los tokens tienen uso dentro de la plataforma? | ⏳ | Pendiente fase 4 |
+| 4.3 | ¿El ranking es global o por categorías? | ⏳ | Pendiente fase 4 |
+| 4.4 | ¿Cuántos niveles de progreso habrá? | ⏳ | Pendiente fase 4 |
+| 4.5 | ¿Los logros son desbloqueables o aleatorios? | ⏳ | Pendiente fase 4 |
 
-### 👤 Módulo: Panel de Usuario
+### 👤 Módulo: Panel de Usuario (Fase 5)
 | # | Pregunta | Estado | Respuesta |
 |---|----------|--------|-----------|
-| 5.1 | ¿Qué estadísticas se muestran como mínimo? | ⏳ | Pendiente |
-| 5.2 | ¿Se permite personalizar el perfil? | ⏳ | Pendiente |
-| 5.3 | ¿Hay avatar de usuario? | ⏳ | Pendiente |
-| 5.4 | ¿Se muestra historial de actividad reciente? | ⏳ | Pendiente |
+| 5.1 | ¿Qué estadísticas se muestran como mínimo? | ⏳ | Pendiente fase 5 |
+| 5.2 | ¿Se permite personalizar el perfil? | ⏳ | Pendiente fase 5 |
+| 5.3 | ¿Hay avatar de usuario? | ⏳ | Pendiente fase 5 |
+| 5.4 | ¿Se muestra historial de actividad reciente? | ⏳ | Pendiente fase 5 |
 
-### 🤖 Módulo: Recomendaciones
+### 🤖 Módulo: Recomendaciones (Fase 6)
 | # | Pregunta | Estado | Respuesta |
 |---|----------|--------|-----------|
-| 6.1 | ¿Cuántas recomendaciones se muestran simultáneamente? | ⏳ | Pendiente |
-| 6.2 | ¿Se pueden descartar recomendaciones? | ⏳ | Pendiente |
-| 6.3 | ¿Qué datos se usan para personalizar? | ⏳ | Pendiente |
+| 6.1 | ¿Cuántas recomendaciones se muestran simultáneamente? | ⏳ | Pendiente fase 6 |
+| 6.2 | ¿Se pueden descartar recomendaciones? | ⏳ | Pendiente fase 6 |
+| 6.3 | ¿Qué datos se usan para personalizar? | ⏳ | Pendiente fase 6 |
 
 ---
 
