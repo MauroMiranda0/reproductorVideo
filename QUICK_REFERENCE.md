@@ -45,4 +45,5 @@ Chain:    Ethereum/Polygon
 ## 📄 Archivos de Referencia
 - `CONSTITUTION.md` - Documento fuente de principios
 - `PRINCIPLES.md` - Directrices detalladas
+- `SPECIFICATIONS.md` - Requisitos y historias de usuario
 - `AGENTS.md` - Configuración del agente

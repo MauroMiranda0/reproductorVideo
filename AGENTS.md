@@ -53,3 +53,9 @@ reproductorVideo/
 - Verificar que los cambios no rompan funcionalidad existente
 - Priorizar la experiencia de usuario
 - Documentar decisiones técnicas importantes en CONSTITUTION.md
+
+## Especificaciones del Proyecto
+- `SPECIFICATIONS.md` contiene requisitos y historias de usuario
+- Enfocarse en QUÉ y PORQUÉ, no en CÓMO (tecnologías)
+- Cada funcionalidad debe tener criterios de aceptación claros
+- Validar implementaciones contra especificaciones
